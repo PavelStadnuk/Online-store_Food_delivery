@@ -1,0 +1,83 @@
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+.WrapperContacts{
+    margin-left: 100px;
+    width: 34%;
+    height: 405px;
+    background-color:rgba(46, 43, 44, 1);
+    opacity: 1;
+    border: solid rgba(46, 43, 44, 0.1);
+    .contactText{padding:35px 0px 35px 50px ;}
+    .informationContact{
+      padding:20px 0px 20px 52px ;
+      border-top:2px solid rgba(255, 255, 255, 0.1);
+      border-bottom:2px solid rgba(255, 255, 255, 0.1);
+      .WrapImg{display: flex;}
+      img{
+        height: 24px;
+        width: 24px;
+      }
+      @media (max-width: 577px) {
+        img{width: 14px;height: 14px;}
+       }
+
+    }
+    .NumberWrap{
+      display: flex;
+      padding: 20px;
+      font-size: 15px;
+      button{
+        margin-right: 35px;
+        width: 50%;
+        height:59px;
+        background: linear-gradient(180deg, rgb(97, 137, 103) 0%, rgb(113.86, 163.62, 121.11) 100%);
+        border-radius: 10px;
+        @media (max-width: 577px) {
+          font-size: 8px;
+         }
+        
+      }
+      .Number{
+        text-align: center;
+      }
+    }
+    .socialMedia{
+      padding-top: 15px;
+      display: flex;
+      width: 60%;
+      justify-content: space-between;
+      margin: 0 auto;
+      // @media (max-width: $breakpoint-xl) {
+      //   p{font-size: 14px;}
+      // }
+      @media (max-width: 993px) {
+        img{width: 14px;height: 14px;}
+
+       }
+       @media (max-width: 769px) {
+        img{width: 12px;height: 12px;}
+        font-size:8px;
+       }
+       @media (max-width: 577px) {
+        img{width: 10px;height: 10px;}
+       }
+    }
+    @media (max-width: 1159px) {
+      font-size: 12px;
+    }
+    @media (max-width: 993px) {
+      h1{font-size: 20px;}
+      h4{font-size: 18px;}
+     }
+     @media (max-width:  769px) {
+      h1{font-size: 16px;}
+      h4{font-size: 14px;}
+     }   
+     @media (max-width: 577px) {
+      font-size: 12px;
+      h1{font-size: 12px;}
+      h4{font-size: 10px;}
+     }
+  }

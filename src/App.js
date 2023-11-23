@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
-
+import style from "./SCSS/App.module.scss";
+import HomePage from "./Pages/home";
+import ComponentHeader from "./Components/Header";
+import ComponentFooter from "./Components/footer";
+import { Route, Routes } from "react-router-dom";
+import ProductCart from "./Components/Productcard";
+import { useSelector } from "react-redux";
+import Basket from "./Components/basket";
+import OrderProcessing from "./Components/OrderProcessing";
+import TermsOfDelivery from "./Components/TermsOfDelivery";
+import Shares from "./Components/SHARES";
 function App() {
+  const productCartID = useSelector((state) => state.FilterSlice.productCartID);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={style.App}>
+      <ComponentHeader />
+      <Routes>
+        <Route
+          path="/ProductCart/:id"
+          element={
+            <ProductCart
+              productCartID={productCartID}
+            />
+          }
+        />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/basket" element={<Basket />} />
+        <Route path="/OrderProcessing" element={<OrderProcessing />} />
+        <Route path="/TermsOfDelivery" element={<TermsOfDelivery />} />
+        <Route path="/Shares" element={<Shares />} />
+      </Routes>
+      <ComponentFooter />
     </div>
   );
 }

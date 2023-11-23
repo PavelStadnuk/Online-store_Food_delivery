@@ -1,0 +1,46 @@
+.wrapper {
+  .wrapperShares {
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    .HShares {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      padding-left: 90px;
+      flex-wrap: wrap;
+
+      h1 {
+        display: inline-block;
+        padding-left: 15px;
+        border-left: 4px solid;
+        border-color: #72a479;
+      }
+    }
+    .wrapperSharesItem {
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      flex-wrap: wrap;
+    }
+  }
+  .map {
+    height: 512px;
+    padding-top: 70px;
+    background-image: url(../assets/image/Map.png);
+    background-repeat: space;
+    background-size: cover;
+    margin-top: 80px;
+  }
+}
+.wrpItem {
+  width: 440px;
+  margin-top: 50px;
+  margin-left: 20px;
+  background: linear-gradient(180deg, rgb(73, 69, 68) 0%, rgb(80, 75, 74) 100%);
+  border-radius: 10px;
+  .Item{
+    padding: 10px;
+    .ItemT{margin-bottom: 20px;}
+    .ItemNuber{color: #6FA076;}
+  }
+}

@@ -1,0 +1,45 @@
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+body::-webkit-scrollbar {
+  width: 0em;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  font-size: 16px;
+  // @media (min-width: $breakpoint-sm) {
+  //   font-size: 8px;
+  //   h4{font-size: 9px;}
+  //   h1{font-size: 9px;}
+  // }
+
+  // @media (min-width: $breakpoint-md) {
+  //   font-size: 10px;
+  //   h4{font-size: 14px;}
+  //   h1{font-size: 14px;}
+  // }
+
+  // @media (min-width: $breakpoint-lg) {
+  //   font-size: 10px;
+  //   h4{font-size: 14px;}
+  //   h1{font-size: 14px;}
+  // }
+
+  // @media (min-width: $breakpoint-xl) {
+  //   font-size: 14px;
+  // }
+}
+.App {
+  background: linear-gradient(180deg, rgb(33, 31, 32) 0%, rgb(68, 64, 63) 100%);
+  &.scrollable {
+    overflow: auto;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  color: rgba(255, 255, 255, 1);
+}

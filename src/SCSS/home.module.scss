@@ -1,0 +1,15 @@
+.HomePage {
+  .HomePhoto {
+    height: 485px;
+    background-image: url(../assets/image/baner3.jpg);
+    background-repeat: space;
+    background-size: cover;
+    // background-size:100%;
+  }
+  @media (max-width: 1200px) {
+    font-size: 14px;
+  }
+  @media (max-width: 768px) {
+    li{font-size: 10px;}
+  }
+}

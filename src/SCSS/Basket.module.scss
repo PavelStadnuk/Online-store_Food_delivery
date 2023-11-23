@@ -1,0 +1,77 @@
+
+.Basket {
+  .wrapper{
+  margin: 0 auto;
+  display:grid;
+  justify-content: center;
+  }
+  .wrapperBack{
+    margin: 0 auto;
+    display:grid;
+    // justify-content: center;
+    padding-left: 100px;
+    margin-bottom: 40px;
+  }
+
+  .goBack {
+    display: flex;
+    margin-top: 45px;
+    
+    // margin-left: 225px;
+    // margin-right: 12px;
+    h3{
+      margin-left: 5px;
+    }
+    button {
+      width: 26px;
+      height: 26px;
+      border-radius: 30px;
+      background-color: rgba(97, 137, 103, 1);
+    }
+  }
+
+  .dishesName {
+    color: #cfcfcf;
+    display: flex;
+    margin-top: 20px;
+    // margin-left: 229px;
+    .dishesCategory {
+      padding-left: 20px;
+      border-left: 6px solid rgba(97, 137, 103, 1);
+    }
+  }
+  .Slick{
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  .results{
+    width: 50%;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 90px;
+    background-color: rgba(73, 69, 68, 1);
+    border-radius: 10px;
+    button {
+      width: 209px;
+      height: 51px;
+      background: linear-gradient(180deg, rgb(97, 137, 103) 0%, rgb(113.86, 163.62, 121.11) 100%);
+      border-radius: 10px;
+      @media (max-width:576px) {
+        font-size: 10px;
+        width: 150px;
+      }
+    }
+    .resultsText{
+      .resultsPrice{
+        display: flex;
+        align-items: center;
+        @media (max-width:576px) {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}

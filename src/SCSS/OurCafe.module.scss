@@ -1,0 +1,82 @@
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+.WrapperOurCafe {
+  margin: 48px;
+  margin-top: 100px;
+  height: 580px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../assets/image/MaskGroup.png);
+  background-repeat: space;
+  background-size: cover;
+  .WrapInformation {
+    width: 570px;
+    margin-left: 68px;
+    button {
+      margin-top: 65px;
+      width: 223px;
+      height: 49px;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.2);
+      @media (max-width: 577px) {
+        width: 160px;
+      }
+    }
+    @media (max-width: 577px) {
+      width: 200px;
+    }
+  }
+  .WrapBlockCafes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    width: 480px;
+    justify-content: space-between;
+    position: relative;
+    gap: 20px;
+    box-sizing: border-box;
+    .blockCafe {
+      padding-top: 65px;
+      padding-bottom: 45px;
+      display: flex;
+      flex-direction: column;
+      width: calc(50% - 10px);
+      background-color: rgba(80, 75, 74, 0.9);
+      align-items: center;
+      text-align: center;
+      p {
+        padding-top: 40px;
+      }
+      &:active {
+        backdrop-filter: blur(10px);
+      }
+      @media (max-width: 577px) {
+        font-size: 8px;
+      }
+    }
+    @media (max-width: 928px) {
+      margin-left: 10px;
+    }
+  }
+  @media (max-width: 676px) {
+    font-size: 14px;
+    img{height: 50px;width: 50px;}
+  }
+  @media (max-width: 577px) {
+    font-size: 12px;
+    img{height: 30px;width: 30px;}
+  }
+}
+.WrapperBack {
+  width: 100%;
+  height: 1125px;
+  background: linear-gradient(
+      to bottom,
+      rgba(33, 31, 32, 1) 40%,
+      transparent 60%
+    ),
+    url(../assets/image/Map.png) center/cover;
+}

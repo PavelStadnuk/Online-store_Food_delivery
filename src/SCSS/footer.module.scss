@@ -1,0 +1,41 @@
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+.footer{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 15px;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    height: 195px;
+    background: linear-gradient(180deg, rgb(68, 64, 63) 0%, rgb(33, 31, 32) 100%);
+    a{
+        text-decoration: none;
+    }
+    button{
+        width: 64px;
+        height: 64px;
+        border-radius:30px;
+    }
+    .Logos{
+        margin-left: 55px;
+    }
+    .footerInformation{
+        display: flex;
+        margin-left: 85px;
+        h1{
+            padding-right: 45px;
+        }
+    }
+    @media (max-width: 993px) {
+   font-size: 12px;
+  }
+  @media (max-width: 769px) {
+    font-size: 8px;
+   }
+   @media (max-width: 577px) {
+    font-size: 4px;
+   }
+}

@@ -1,0 +1,291 @@
+.wrapper {
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  .wrapNight{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: black;
+    padding: 20px;
+    p{margin-top: 15px;}
+  }
+  .wrapperBack {
+    // margin: 0 auto;
+    display: grid;
+    // justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .goBack {
+    display: flex;
+    margin-top: 45px;
+
+    // margin-left: 225px;
+    // margin-right: 12px;
+    h3 {
+      margin-left: 5px;
+    }
+    button {
+      width: 26px;
+      height: 26px;
+      border-radius: 30px;
+      background: linear-gradient(180deg, rgb(97, 137, 103) 0%, rgb(113.86, 163.62, 121.11) 100%);
+    }
+  }
+  .ContactInformation {
+    background-color: rgba(73, 69, 68, 1);
+    // margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    .inputInformation {
+      input {
+        margin-left: 15px;
+        margin-top: 30px;
+        background-color: rgba(73, 69, 68, 1);
+        border-radius: 10px;
+        width: 363px;
+        height: 60px;
+      }
+    }
+  }
+  .Delivery {
+    background-color: rgba(73, 69, 68, 1);
+    // margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    .boxWrapper {
+      display: flex;
+      margin-top: 35px;
+      .boxDelivery {
+        display: flex;
+        justify-content: space-between;
+        border: solid 1px;
+        border-color: #72a479;
+        border-radius: 10px;
+        width: 260px;
+        cursor: pointer;
+        font-size: 24px;
+      
+        .chooseDelivery {
+          padding: 10px;
+          border-radius: 10px;
+          &.active {
+            background-color: #72a479;
+          }
+        }
+      
+        .pickupDelivery {
+          padding: 10px;
+          border-radius: 10px;
+          &.active {
+            background-color: #72a479;
+          }
+        }
+      
+      }
+      
+
+      .wrapperClock {
+        display: flex;
+        align-items: center;
+        img {
+          width: 16px;
+          height: 16px;
+          margin-left: 20px;
+        }
+        h2 {
+          margin-left: 10px;
+        }
+      }
+    }
+    .TextAdrDelivery {
+      margin-top: 30px;
+      margin-bottom: 25px;
+    }
+    .AdrDelivery {
+      justify-content: space-between;
+      flex-wrap: wrap;
+      input {
+        margin-left: 15px;
+        margin-top: 30px;
+        background-color: rgba(73, 69, 68, 1);
+        border-radius: 10px;
+        height: 60px;
+      }
+      .AdrStreet {
+        width: 400px;
+      }
+      .AdrHome {
+        width: 170px;
+      }
+      .AdrApartments {
+        width: 186px;
+      }
+      .AdrCommentary {
+        width: 600px;
+      }
+    }
+    .WrpEnterTheRestaurant{
+      margin-top: 10px;
+      input {
+        margin-top: 30px;
+        background-color: rgba(73, 69, 68, 1);
+        border-radius: 10px;
+        width: 363px;
+        height: 60px;
+      }
+    }
+  }
+  .WillPay {
+    background-color: rgba(73, 69, 68, 1);
+    // margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .inputInformation {
+      input {
+        margin-left: 15px;
+        margin-top: 30px;
+        background-color: rgba(73, 69, 68, 1);
+        border-radius: 10px;
+        width: 170px;
+        height: 60px;
+      }
+    }
+    .boxDelivery {
+      display: flex;
+      justify-content: space-between;
+      border: solid 1px;
+      border-color: #72a479;
+      border-radius: 10px;
+      width: 560px;
+      cursor: pointer;
+      font-size: 24px;
+      .chooseDelivery {
+        padding: 10px;
+        border-radius: 10px;
+        &.active {
+          background-color: #72a479;
+        }
+      }
+      .pickupDelivery {
+        padding: 10px;
+        border-radius: 10px;
+        &.active {
+          background-color: #72a479;
+        }
+      }
+      .InCash {
+        padding: 10px;
+        border-radius: 10px;
+        &.active {
+          background-color: #72a479;
+        }
+      }
+    }
+  }
+  .WhenWillItBeDelivered {
+    background-color: rgba(73, 69, 68, 1);
+    // margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .inputInformation {
+      input {
+        margin-left: 15px;
+        margin-top: 30px;
+        background-color: rgba(73, 69, 68, 1);
+        border-radius: 10px;
+        width: 170px;
+        height: 60px;
+      }
+      margin-bottom: 20px;
+    }
+    .boxWrapper {
+      display: flex;
+      margin-top: 35px;
+      input {
+        margin-left: 30px;
+        height: 60px;
+        background-color: rgba(73, 69, 68, 1);
+        border-radius: 10px;
+        width: 170px;
+      }
+      .boxDelivery {
+        display: flex;
+        justify-content: space-between;
+        border: solid 1px;
+        border-color: #72a479;
+        border-radius: 10px;
+        width: 400px;
+        cursor: pointer;
+        font-size: 24px;
+        .chooseDelivery {
+          padding: 10px;
+          border-radius: 10px;
+          &.active {
+            background-color: #72a479;
+          }
+        }
+        .pickupDelivery {
+          padding: 10px;
+          border-radius: 10px;
+          &.active {
+            background-color: #72a479;
+          }
+        }
+      }
+    }
+    .wrapCall {
+      
+      .call {
+        display: flex;
+        align-items: center;
+        p {
+          margin-left: 5px;
+          font-size: 24px;
+        }
+        input {
+          width: 16px;
+          height: 16px;
+          padding: 0 0 0 30px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .processingOfPersonalData{
+    background-color: rgba(73, 69, 68, 1);
+    // margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    button{width: 209px;
+      height: 51px;
+      background-color: rgba(97, 137, 103, 1);
+      border-radius: 10px;}
+      p{margin-left: 10px;margin-right: 55px;}
+
+  }
+  // @media (max-width: 768px) {
+  //   font-size: 16px;
+  // }
+}

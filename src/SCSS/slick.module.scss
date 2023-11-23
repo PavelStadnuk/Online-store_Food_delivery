@@ -1,0 +1,88 @@
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+.wrapperSlick {
+  margin-top: 30px;
+  width: 100%;
+}
+.SlickInformation {
+padding-right: 50px;
+box-sizing: border-box;
+position: relative; 
+outline: none; 
+width: 300px;
+// @media (max-width: 1052px) {
+//   h1{font-size: 25px;}
+// }
+ .SlickImage{
+    width: 100%;
+    height: 227px;
+    border-radius: 5px;
+    // @media (max-width: 1052px) {
+    //   height: 200px;
+    // }
+ }
+ .SlickWrap{
+    padding: 20px;
+    background: linear-gradient(180deg, rgb(73, 69, 68) 0%, rgb(80, 75, 74) 100%);
+    border-radius: 0% 0% 10% 10%;
+ }
+ }
+.SlickSettings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // width:300px;
+  // @media (max-width:  935px) {
+  //   h1{font-size: 18px;}
+  // }
+}
+.SlickPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  button {
+    height: 43px;
+    background: linear-gradient(180deg, rgb(97, 137, 103) 0%, rgb(113.86, 163.62, 121.11) 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    padding: 15px;
+    // @media (max-width: 1052px) {
+    //   font-size: 11px;
+    // }
+    // @media (max-width: 1052px) {
+    //   font-size: 8px;
+    // }
+    // @media (max-width: 923px) {
+    //   font-size: 6px;
+    // }
+
+  }
+  // @media (max-width: 1052px) {
+  //   font-size: 11px;
+  // }
+  // @media (max-width: 974px) {
+  //   font-size: 10px;
+  // }
+  // @media (max-width:  923px) {
+  //   font-size: 10px;
+  // }
+}
+.SlickText{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dishesName {
+  color: #cfcfcf;
+  display: flex;
+  margin-left: 125px;
+  margin-bottom: 50px;
+  .dishesCategory {
+    padding-left: 20px;
+    border-left: 6px solid rgba(97, 137, 103, 1);
+  }
+}
