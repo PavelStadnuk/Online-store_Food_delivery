@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Online-store_Food_delivery/static/css/main.976a580f.css",
+    "main.js": "/Online-store_Food_delivery/static/js/main.9d30cfbf.js",
+    "static/js/787.4ab0f32b.chunk.js": "/Online-store_Food_delivery/static/js/787.4ab0f32b.chunk.js",
+    "static/media/MaskGroup.png": "/Online-store_Food_delivery/static/media/MaskGroup.f0ef69ad9dd9025a9792.png",
+    "static/media/Map.png": "/Online-store_Food_delivery/static/media/Map.7ca63d7255d036bee62c.png",
+    "static/media/baner3.jpg": "/Online-store_Food_delivery/static/media/baner3.1863ae50ebbea9d460fc.jpg",
+    "static/media/5.jpg": "/Online-store_Food_delivery/static/media/5.c0820bcf423532b00bd0.jpg",
+    "static/media/2.png": "/Online-store_Food_delivery/static/media/2.0c65dc6788b8a127fd61.png",
+    "static/media/4.png": "/Online-store_Food_delivery/static/media/4.ff5293e35edf5c090a75.png",
+    "static/media/HomePhoto.png": "/Online-store_Food_delivery/static/media/HomePhoto.3fd0c3fce0ffc8645849.png",
+    "static/media/3.png": "/Online-store_Food_delivery/static/media/3.c15cb9d4b87539fd3ec7.png",
+    "static/media/chees.png": "/Online-store_Food_delivery/static/media/chees.038153fa2bd3705b3e90.png",
+    "static/media/drink.png": "/Online-store_Food_delivery/static/media/drink.18ca87dfcc05f7fcc6fe.png",
+    "static/media/meat.png": "/Online-store_Food_delivery/static/media/meat.17f2eae5cab7b1c50919.png",
+    "static/media/6.jpg": "/Online-store_Food_delivery/static/media/6.26b46c52f9d1d8fba4aa.jpg",
+    "static/media/8.jpg": "/Online-store_Food_delivery/static/media/8.7fbbf69c6413716174c6.jpg",
+    "static/media/Location.png": "/Online-store_Food_delivery/static/media/Location.b7c1bf259cdcd3192b26.png",
+    "static/media/7.jpg": "/Online-store_Food_delivery/static/media/7.3b1f26f632d02ec6674a.jpg",
+    "static/media/Message.png": "/Online-store_Food_delivery/static/media/Message.6284a4a636bbe24026ea.png",
+    "static/media/slick.svg": "/Online-store_Food_delivery/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Online-store_Food_delivery/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Online-store_Food_delivery/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Online-store_Food_delivery/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Online-store_Food_delivery/index.html",
+    "main.976a580f.css.map": "/Online-store_Food_delivery/static/css/main.976a580f.css.map",
+    "main.9d30cfbf.js.map": "/Online-store_Food_delivery/static/js/main.9d30cfbf.js.map",
+    "787.4ab0f32b.chunk.js.map": "/Online-store_Food_delivery/static/js/787.4ab0f32b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.976a580f.css",
+    "static/js/main.9d30cfbf.js"
+  ]
+}
