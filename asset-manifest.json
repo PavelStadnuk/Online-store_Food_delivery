@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Online-store_Food_delivery/static/css/main.80267c47.css",
-    "main.js": "/Online-store_Food_delivery/static/js/main.3888c56c.js",
+    "main.css": "/Online-store_Food_delivery/static/css/main.ed92cad2.css",
+    "main.js": "/Online-store_Food_delivery/static/js/main.cf390821.js",
     "static/js/787.4ab0f32b.chunk.js": "/Online-store_Food_delivery/static/js/787.4ab0f32b.chunk.js",
     "static/media/MaskGroup.png": "/Online-store_Food_delivery/static/media/MaskGroup.f0ef69ad9dd9025a9792.png",
     "static/media/Map.png": "/Online-store_Food_delivery/static/media/Map.7ca63d7255d036bee62c.png",
@@ -24,12 +24,12 @@
     "static/media/slick.ttf": "/Online-store_Food_delivery/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Online-store_Food_delivery/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Online-store_Food_delivery/index.html",
-    "main.80267c47.css.map": "/Online-store_Food_delivery/static/css/main.80267c47.css.map",
-    "main.3888c56c.js.map": "/Online-store_Food_delivery/static/js/main.3888c56c.js.map",
+    "main.ed92cad2.css.map": "/Online-store_Food_delivery/static/css/main.ed92cad2.css.map",
+    "main.cf390821.js.map": "/Online-store_Food_delivery/static/js/main.cf390821.js.map",
     "787.4ab0f32b.chunk.js.map": "/Online-store_Food_delivery/static/js/787.4ab0f32b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80267c47.css",
-    "static/js/main.3888c56c.js"
+    "static/css/main.ed92cad2.css",
+    "static/js/main.cf390821.js"
   ]
 }
