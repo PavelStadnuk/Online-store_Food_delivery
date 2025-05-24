@@ -79,7 +79,7 @@ const CenterMode = ({ date,categoryName }) => {
               </div>
               <p className={style.SlickText}>{obj.text}</p>
               <div className={style.SlickPrice}>
-                <p>{obj.price} $</p>
+                <p className={style.price}>{obj.price} $</p>
                 <button className={style.SlickInTheBasket} onClick={() => handleAddToCart(obj)}>
                   В кошик <img src={buy} alt="Buy Icon" />
                 </button>

@@ -3,14 +3,16 @@ $breakpoint-md: 768px;
 .categories {
   border-top: 2px solid rgba(255, 255, 255, 0.1);
   height: 78px;
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
   ul {
-    padding-top: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: auto;
-    // width: 1285px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
     li {
       list-style-type: none;
       font-weight: bold;
@@ -30,5 +32,15 @@ $breakpoint-md: 768px;
   }
   @media (min-width: $breakpoint-md) {
     font-size: 11px;
+  }
+  ul{
+    @media (max-width: 376px) {
+        padding: 5px;
+      }
+  }
+  li{
+    @media (max-width: 325px) {
+        font-size: 8px;
+      }
   }
 }

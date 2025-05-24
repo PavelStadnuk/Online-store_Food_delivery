@@ -276,7 +276,7 @@ const OrderProcessing = () => {
           <div className={style.wrapCall}>
             <div className={style.call}>
                <input
-                {...register("Do not call back")}
+                {...register("callbackOption")}
                 type="radio"
                 value="Do not call back"
               /> 
@@ -284,7 +284,7 @@ const OrderProcessing = () => {
             </div>
             <div className={style.call}>
                <input
-                {...register("An operator call is required")}
+                {...register("callbackOption")}
                 type="radio"
                 value="An operator call is required"
               /> 

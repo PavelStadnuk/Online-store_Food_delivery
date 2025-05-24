@@ -24,7 +24,6 @@ const Categories = React.memo(({ activeCategory, onClickCategory }) => {
                 onClickCategory(index);
               }}
               className={activeCategory === index ? style.active :null}
-              //  className={activeCategory === index ? "active" : ""}
             >
               {value}
             </li>

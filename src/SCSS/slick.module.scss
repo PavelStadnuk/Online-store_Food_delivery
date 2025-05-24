@@ -5,6 +5,7 @@ $breakpoint-xl: 1200px;
 .wrapperSlick {
   margin-top: 30px;
   width: 100%;
+  text-align: center;
 }
 .SlickInformation {
 padding-right: 50px;
@@ -24,7 +25,11 @@ width: 300px;
     // }
  }
  .SlickWrap{
-    padding: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(180deg, rgb(73, 69, 68) 0%, rgb(80, 75, 74) 100%);
     border-radius: 0% 0% 10% 10%;
  }
@@ -33,6 +38,7 @@ width: 300px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 5px;
   // width:300px;
   // @media (max-width:  935px) {
   //   h1{font-size: 18px;}
@@ -42,6 +48,10 @@ width: 300px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
+  .price{
+    white-space: nowrap;
+  }
   button {
     height: 43px;
     background: linear-gradient(180deg, rgb(97, 137, 103) 0%, rgb(113.86, 163.62, 121.11) 100%);
@@ -79,7 +89,7 @@ width: 300px;
 .dishesName {
   color: #cfcfcf;
   display: flex;
-  margin-left: 125px;
+    justify-content: center;
   margin-bottom: 50px;
   .dishesCategory {
     padding-left: 20px;

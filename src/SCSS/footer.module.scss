@@ -5,10 +5,13 @@ $breakpoint-xl: 1200px;
 .footer{
     box-sizing: border-box;
     width: 100%;
+    
     font-size: 15px;
-    padding-left: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 5%;
+    padding: 10px;
     height: 195px;
     background: linear-gradient(180deg, rgb(68, 64, 63) 0%, rgb(33, 31, 32) 100%);
     a{
@@ -24,18 +27,22 @@ $breakpoint-xl: 1200px;
     }
     .footerInformation{
         display: flex;
-        margin-left: 85px;
-        h1{
-            padding-right: 45px;
-        }
+        text-align: center;
+        gap: 45px;
+        @media (max-width: 832px) {
+            flex-direction: column;
+            gap: 5px;
+           }
+
     }
-    @media (max-width: 993px) {
+    @media (max-width: 1010px) {
    font-size: 12px;
   }
-  @media (max-width: 769px) {
+  @media (max-width: 523px) {
     font-size: 8px;
    }
-   @media (max-width: 577px) {
-    font-size: 4px;
+   @media (max-width: 365px) {
+    font-size: 8px;
    }
+ 
 }

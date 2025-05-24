@@ -6,8 +6,14 @@ import arrow from "../assets/image/ArrowB.png";
 import bag from '../assets/image/shoppingbag.png'
 import date from '../Redux/date'
 import CenterMode from "./Slick";
+import { useDispatch } from 'react-redux';
+import { addItemToCart } from '../Redux/Slice/cartSlice';
 const ProductCart = () => {
   const {id}=useParams()
+   const dispatch = useDispatch();
+    const handleAddToCart = (item) => {
+      dispatch(addItemToCart( item ));
+    };
   const elementWithId = date.find(element => element.id ==id)
   const targetIDs = date.find(element => element.id == id).BWT;
   const dates = date.filter(element => targetIDs.includes(element.id));
@@ -24,14 +30,14 @@ const ProductCart = () => {
         <div>
           <img src={elementWithId.photo}/>
         </div>
-        <div>
+        <div className={style.ProductCartInformation}>
           <div className={style.ProductCartInformationName}>
             <h3>{elementWithId.name}</h3>
             <p>{elementWithId.compound}</p>
           </div>
           <div className={style.ProductCartInformationWeight}>
             <p>Вес: {elementWithId.weight} г</p>
-            <div className={style.WrapBasketButton}>
+            <div className={style.WrapBasketButton} onClick={() => handleAddToCart(elementWithId)}>
               <button>В корзину <div className={style.bagWrap}><img src={bag}/></div></button>
               <h3>{elementWithId.price}₽</h3>
             </div>
